@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+
+  {{ partial "head.html" . }}
+
+  <body id="page-top" class="index">
+    {{ partial "nav.html" . }}
+    {{ partial "hero.html" . }}
+
+    {{ if .Site.Params.acrovyn.enable }}
+      {{ partial "product/acrovyn.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.pedisystems.enable }}
+      {{ partial "product/pedisystems.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.generalcubicle.enable }}
+      {{ partial "product/generalcubicle.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.contact.enable }}
+      {{ partial "contact.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.footer.enable }}
+      {{ partial "footer.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.portfolio.enable }}
+      {{ partial "modals.html" . }}
+    {{ end }}
+
+    {{ partial "js.html" . }}
+  </body>
+</html>

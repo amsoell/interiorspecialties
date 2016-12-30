@@ -1,0 +1,15 @@
+name = "Interior Specialties"
+license = "Apache License 2.0"
+description = "InteriorSpecialties.net web site template"
+homepage = "//github.com/amsoell/interiorspecialties"
+tags = ["portfolio", "company", "contact form", "timeline", "google analytics", "piwik"]
+min_version = 0.15
+
+[author]
+  name = "Andy Soell"
+  homepage = "//github.com/amsoell"
+
+[original]
+  name = "Agency"
+  homepage = "//github.com/digitalcraftsman/hugo-agency-theme"
+  repo = "//github.com/digitalcraftsman/hugo-agency-theme"
