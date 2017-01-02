@@ -1,28 +1,25 @@
 {{ "<!-- Acrovyn Doors Aside -->" | safeHTML }}
 <section id="acrovyn">
-  <aside class="clients">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h4 class="heading">{{ with .Site.Params.clients_list.title }}{{ . | markdownify }}{{ end }}</h4>
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">{{ with .Site.Params.acrovyn.title }}{{ . }}{{ end }}</h2>
+        <h3 class="section-subheading text-muted">{{ with .Site.Params.acrovyn.subtitle }}{{ . | markdownify }}{{ end }}</h3>
       </div>
-      <div class="row flexbox{{ if .Site.Params.clients_list.center }} flexbox-center{{ end }}">
-
-        {{ range .Site.Params.clients }}
-          <div class="col-md-3 col-sm-6 col">
-            {{ $url := printf "img/logos/%s" .logo }}
-            {{ if .link }}
-              <a href="{{ .link }}">
-                <img src="{{ $url | absURL }}" class="img-responsive img-centered" alt="">
-              </a>
-            {{ else }}
-              <img src="{{ $url | absURL }}" class="img-responsive img-centered" alt="">
+    </div>
+    {{ range .Site.Params.acrovyn.row }}
+      <div class="row text-center">
+        {{ range .list }}
+          <div class="col-md-6">
+            <img src="/img/{{ .icon }}" alt="" width="100" height="100" />
+            <h4 class="service-heading">{{ if .url }}<a href="{{ .url | absURL }}">{{ .title | markdownify }}</a>{{ else }}{{ .title | markdownify }}{{ end }}</h4>
+            <p class="text-muted">{{ .description | markdownify }}</p>
+            {{ range .links }}
+              <nobr><a href="{{ .link }}" target="_blank">{{ .text }}</a></nobr>,
             {{ end }}
           </div>
         {{ end }}
-
       </div>
-    </div>
-  </aside>
+    {{ end }}
+  </div>
 </section>

@@ -59,152 +59,147 @@ googleAnalytics = "UA-1446018-12"
 		title = "Representing Construction Specialties since 1985"
 		buttonText = "Tell me more"
 
+	[params.about]
+		title = "About Interior Specialties"
 
 	# Services section
 	[params.acrovyn]
 		enable = true
 		title = "Acrovyn Products"
-		subtitle = "Lorem ipsum dolor sit amet consectetur."
 
-		[[params.services.row]]
+		[[params.acrovyn.row]]
 
-		[[params.services.row.list]]
-			icon = "fa-shopping-cart"
-			title = "E-Commerce"
-			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-			url = "#"
+		[[params.acrovyn.row.list]]
+			icon = "acrovyn-doors.png"
+			title = "Acrovyn Doors"
+			description = "Virtually indestructible Acrovyn Doors were designed to withstand daily traffic and wear without sacrificing aesthetics and design."
+			url = "http://www.c-sgroup.com/acrovyn-doors"
 
-		[[params.services.row.list]]
-			icon = "fa-laptop"
-			title = "Responsive Design"
-			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-			url = "#"
+			[[params.acrovyn.row.list.links]]
+				text = "View Acrovyn Door Product Video"
+				link = "http://www.c-sgroup.com/acrovyn-doors/movie-promotion"
+			[[params.acrovyn.row.list.links]]
+				text = "Acrovyn Door Selector"
+				link = "http://www.c-sgroup.com/acrovyn-doors/door-selector"
 
-		[[params.services.row.list]]
-			icon = "fa-lock"
-			title = "Web"
-			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-			url = "#"
+		[[params.acrovyn.row.list]]
+			icon = "acrovyn-walls.png"
+			title = "Acrovyn Walls"
+			description = "Wave goodbye to damage and say hello to stunning environments with our Acrovyn interior wall protection products."
+			url = "http://www.c-sgroup.com/acrovyn"
+
+			[[params.acrovyn.row.list.links]]
+				text = "Acrovyn High-Impact Wall Covering"
+				link = "http://www.c-sgroup.com/acrovyn/wall-covering"
+
+			[[params.acrovyn.row.list.links]]
+				text = "Acrovyn Wall Panels"
+				link = "http://www.c-sgroup.com/acrovyn/wall-panels"
+
+			[[params.acrovyn.row.list.links]]
+				text = "Acrovyn Handrails"
+				link = "http://www.c-sgroup.com/acrovyn/handrails"
+
+			[[params.acrovyn.row.list.links]]
+				text = "Acrovyn Crashrails"
+				link = "http://www.c-sgroup.com/acrovyn/crash-rails"
+
+			[[params.acrovyn.row.list.links]]
+				text = "Acrovyn Corner-Guards"
+				link = "Acrovyn Corner-Guards"
+
+			[[params.acrovyn.row.list.links]]
+				text = "Acrovyn Door & Door-Frame Protection"
+				link = "http://www.c-sgroup.com/acrovyn/door-covering"
+
 
 		# About section
 	[params.pedisystems]
 		enable = true
 		title = "PediSystems Products"
-		subtitle = "Lorem ipsum dolor sit amet consectetur."
-		endpoint = "Be part<br>of our<br>story!"
 
-		# The events will be listed from the top to the bottom.
-		# All images are stored under 'static/img/about'.
-		# Replace them with your own.
-		[[params.about.events]]
-			img = "1.jpg"
-			date = "2009-2011"
-			title = "Our Humble Beginnings"
-			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+		[[params.pedisystems.row]]
 
-		[[params.about.events]]
-			img = "2.jpg"
-			date = "March 2011"
-			title = "An Agency is Born"
-			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+		[[params.pedisystems.row.list]]
+			title = "PediSystems Entrance Flooring"
+			description = "C/S Pedisystems architectural mats and grids keep the entrances of commercial buildings, schools and hospitals, safe and beautiful by stopping dirt, snow and water at the door."
+			url = "http://www.c-sgroup.com/entrance-flooring/entrance-mats-entrance-grids"
 
-		[[params.about.events]]
-			img = "3.jpg"
-			date = "December 2012"
-			title = "Our Humble Beginnings"
-			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+			[[params.pedisystems.row.list.links]]
+				text = "View PediSystems Product Video"
+				link = "http://www.c-sgroup.com/entrance-flooring/promo-movie"
 
-		[[params.about.events]]
-			img = "4.jpg"
-			date = "July 2014"
-			title = "Phase Two Expansion"
-			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+			[[params.pedisystems.row.list.links]]
+				text = "PediTred"
+				link = "http://www.c-sgroup.com/entrance-flooring/entrance-grids/peditred_g4"
+
+			[[params.pedisystems.row.list.links]]
+				text = "PediGrid"
+				link = "http://www.c-sgroup.com/entrance-flooring/entrance-grids/pedigrid_g1"
+
+			[[params.pedisystems.row.list.links]]
+				text = "GridLine"
+				link = "http://www.c-sgroup.com/entrance-flooring/entrance-grids/gridline_g6"
+
+			[[params.pedisystems.row.list.links]]
+				text = "PediMat"
+				link = "http://www.c-sgroup.com/entrance-flooring/entrance-mats/pedimat_m1"
+
+			[[params.pedisystems.row.list.links]]
+				text = "TreadLine"
+				link = "http://www.c-sgroup.com/entrance-flooring/entrance-mats/treadline_t1"
+
+			[[params.pedisystems.row.list.links]]
+				text = "DesignStep"
+				link = "http://www.c-sgroup.com/entrance-flooring/design-step"
+
+			[[params.pedisystems.row.list.links]]
+				text = "DuroMat"
+				link = "http://www.c-sgroup.com/entrance-flooring/entrance-mats/duromat_dm"
+
+			[[params.pedisystems.row.list.links]]
+				text = "Floorometry"
+				link = "http://www.c-sgroup.com/floorometry/tech-center"
+
+			[[params.pedisystems.row.list.links]]
+				text = "View Floorometry Product Video"
+				link = "http://www.c-sgroup.com/floorometry/promo-movie"
+
 
 
 	# Team section
 	[params.generalcubicle]
 		enable = true
-		# Possibility to center items
-		#center = true
-		title = "General Cubicle Track and Curtains"
-		subtitle = "Lorem ipsum dolor sit amet consectetur."
-		description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+		title = "General Cubicle"
 
-		# All team member's pictures are stored under 'static/img/team'.
-		# Replace them with your own too.
-		# Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
-		[[params.team.members]]
-			img = "1.jpg"
-			name = "Kay Garland"
-			position = "Lead Designer"
-			reportsTo = "CTO"
-			livesIn = "[Munich, Germany](#some-maps-url)"
-			scope = [
-				"UX for [member dashboard](#)",
-				"Maintainer for [awesome-project](#)",
-				"Open Source [community management](#)"
-			]
-			# For bio markdown and even multiline strings are available.
-			bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
-She worked at Pied Piper for years until they went belly up."""
-			social = [
-				["fa-twitter", "#"],
-				["fa-facebook", "#"],
-				["fa-linkedin", "#"]
-			]
+		[[params.generalcubicle.row]]
 
-		[[params.team.members]]
-			img = "2.jpg"
-			name = "Larry Parker"
-			position = "Lead Marketer"
-			social = [
-				["fa-twitter", "#"],
-				["fa-facebook", "#"],
-				["fa-linkedin", "#"]
-			]
+		[[params.generalcubicle.row.list]]
+			title = "Track and Curtains"
+			description = "C/S General Cubicle manufacturers the industry's finest line of flame-resistant privacy curtains, tracks and track accessory items."
+			url = "http://www.c-sgroup.com/cubicle-track-curtains"
 
-		[[params.team.members]]
-			img = "3.jpg"
-			name = "Diana Pertersen"
-			position = "Lead Developer"
-			social = [
-				["fa-twitter", "#"],
-				["fa-facebook", "#"],
-				["fa-linkedin", "#"]
-			]
+		[[params.generalcubicle.row.list.links]]
+			text = "Track"
+			link = "http://www.c-sgroup.com/cubicle-track-curtains/track_systems"
 
-	# Client section
-		[params.clients_list]
-			enable = true
-			# Possibility to center items
-			#center = true
-			# Optional client title specifying the involvement
-			#title = "Used and trusted by"
+		[[params.generalcubicle.row.list.links]]
+			text = "Carriers"
+			link = "http://www.c-sgroup.com/cubicle-track-curtains/track_carriers"
 
-			# All the clients' logos are stored under 'static/img/logos'.
-			# Replace them with your clients's logos.
-			# Suggestion: .svg in the size of 280px*80px looks good
-			[[params.clients]]
-				logo = "envato.jpg"
-				link = "#"
+		[[params.generalcubicle.row.list.links]]
+			text = "IV Carriers"
+			link = "http://www.c-sgroup.com/cubicle-track-curtains/iv_pendants"
 
-			[[params.clients]]
-				logo = "designmodo.jpg"
-				link = "#"
-
-			[[params.clients]]
-				logo = "themeforest.jpg"
-				link = "#"
-
-			[[params.clients]]
-				logo = "creative-market.jpg"
-				link = "#"
+		[[params.generalcubicle.row.list.links]]
+			text = "Curtains"
+			link = "http://www.c-sgroup.com/cubicle-track-curtains/fabric"
 
 	# Contact section
 	[params.contact]
 		enable = true
 		title = "Contact us"
-		subtitle  = "Lorem ipsum dolor sit amet consectetur."
+		subtitle  = "Want to know about these products or get a quote? We would love to hear from you."
 		buttonText = "Send message"
 
 		# Since this template is static, the contact form uses www.formspree.io as a
@@ -260,7 +255,7 @@ She worked at Pied Piper for years until they went belly up."""
 	# Footer section
 	[params.footer]
 		enable = true
-		copyright = "Copyright &copy; 2016 Interior Specialties"
+		copyright = "Copyright &copy; 2017 Interior Specialties"
 
 		[[params.footer.quicklinks]]
 			text = "Product Literature"
