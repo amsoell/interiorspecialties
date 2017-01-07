@@ -70,20 +70,7 @@ googleAnalytics = "UA-1446018-12"
 		[[params.acrovyn.row]]
 
 		[[params.acrovyn.row.list]]
-			icon = "acrovyn-doors.png"
-			title = "Acrovyn Doors"
-			description = "Virtually indestructible Acrovyn Doors were designed to withstand daily traffic and wear without sacrificing aesthetics and design."
-			url = "http://www.c-sgroup.com/acrovyn-doors"
-
-			[[params.acrovyn.row.list.links]]
-				text = "View Acrovyn Door Product Video"
-				link = "http://www.c-sgroup.com/acrovyn-doors/movie-promotion"
-			[[params.acrovyn.row.list.links]]
-				text = "Acrovyn Door Selector"
-				link = "http://www.c-sgroup.com/acrovyn-doors/door-selector"
-
-		[[params.acrovyn.row.list]]
-			icon = "acrovyn-walls.png"
+			icon = "callout-acrovyn-wall-protection.gif"
 			title = "Acrovyn Walls"
 			description = "Wave goodbye to damage and say hello to stunning environments with our Acrovyn interior wall protection products."
 			url = "http://www.c-sgroup.com/acrovyn"
@@ -112,6 +99,18 @@ googleAnalytics = "UA-1446018-12"
 				text = "Acrovyn Door & Door-Frame Protection"
 				link = "http://www.c-sgroup.com/acrovyn/door-covering"
 
+		[[params.acrovyn.row.list]]
+			icon = "callout-acrovyn-doors.gif"
+			title = "Acrovyn Doors"
+			description = "Virtually indestructible Acrovyn Doors were designed to withstand daily traffic and wear without sacrificing aesthetics and design."
+			url = "http://www.c-sgroup.com/acrovyn-doors"
+
+			[[params.acrovyn.row.list.links]]
+				text = "View Acrovyn Door Product Video"
+				link = "http://www.c-sgroup.com/acrovyn-doors/movie-promotion"
+			[[params.acrovyn.row.list.links]]
+				text = "Acrovyn Door Selector"
+				link = "http://www.c-sgroup.com/acrovyn-doors/door-selector"
 
 		# About section
 	[params.pedisystems]
@@ -121,6 +120,7 @@ googleAnalytics = "UA-1446018-12"
 		[[params.pedisystems.row]]
 
 		[[params.pedisystems.row.list]]
+			icon = "callout-pedisystems.gif"
 			title = "PediSystems Entrance Flooring"
 			description = "C/S Pedisystems architectural mats and grids keep the entrances of commercial buildings, schools and hospitals, safe and beautiful by stopping dirt, snow and water at the door."
 			url = "http://www.c-sgroup.com/entrance-flooring/entrance-mats-entrance-grids"
@@ -175,7 +175,8 @@ googleAnalytics = "UA-1446018-12"
 		[[params.generalcubicle.row]]
 
 		[[params.generalcubicle.row.list]]
-			title = "Track and Curtains"
+			icon = "callout-general-cubicle-track-and-curtain.gif"
+			title = "Curtains and Track"
 			description = "C/S General Cubicle manufacturers the industry's finest line of flame-resistant privacy curtains, tracks and track accessory items."
 			url = "http://www.c-sgroup.com/cubicle-track-curtains"
 
