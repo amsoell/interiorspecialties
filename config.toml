@@ -259,5 +259,13 @@ googleAnalytics = "UA-1446018-12"
 		copyright = "Copyright &copy; 2017 Interior Specialties"
 
 		[[params.footer.quicklinks]]
+			text = "1-614-882-7733"
+			link = "tel:16148827733"
+
+		[[params.footer.quicklinks]]
+			text = "info@interiorspecialties.net"
+			link = "mailto:info@interiorspecialties.net"
+
+		[[params.footer.quicklinks]]
 			text = "Product Literature"
 			link = "#"
