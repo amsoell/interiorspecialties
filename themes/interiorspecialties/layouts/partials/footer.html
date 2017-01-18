@@ -2,11 +2,11 @@
 <footer>
   <div class="container">
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-4">
         <span class="copyright">{{ with .Site.Params.footer.copyright }}{{ . | markdownify }}{{ end }}</span>
       </div>
-      <div class="col-md-6">
-        <ul class="list-inline quicklinks">
+      <div class="col-md-8">
+        <ul class="list-inline quicklinks text-right">
 
           {{ range .Site.Params.footer.quicklinks }}
             <li><a href="{{ .link | safeURL }}">{{ .text  | markdownify }}</a></li>

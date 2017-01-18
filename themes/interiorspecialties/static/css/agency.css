@@ -40,7 +40,7 @@ a.active {
 }
 
 a {
-    color: #fed136;
+    color: #cc3333;
 }
 
 a:hover,
@@ -763,7 +763,7 @@ aside .heading {
 
 section#contact {
     background-color: #222;
-    background-image: url(../img/map-image.png);
+    background-image: url(img/map-image.png);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -848,6 +848,10 @@ footer ul.quicklinks {
     text-transform: none;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
+}
+
+footer a {
+    color: #3333cc;
 }
 
 ul.social-buttons {

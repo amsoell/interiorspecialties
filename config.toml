@@ -49,7 +49,7 @@ googleAnalytics = "UA-1446018-12"
 		#logo = "logo.svg"
 		acrovyn = "Acrovyn"
 		pedisystems = "PediSystems"
-		generalcubicle = "Cubicle Track / Curtains"
+		generalcubicle = "Cubicle Curtains / Track"
 		contact = "Contact"
 
 	# Hero section
@@ -71,8 +71,8 @@ googleAnalytics = "UA-1446018-12"
 
 		[[params.acrovyn.row.list]]
 			icon = "callout-acrovyn-wall-protection.gif"
-			title = "Acrovyn Walls"
-			description = "Wave goodbye to damage and say hello to stunning environments with our Acrovyn interior wall protection products."
+			title = "Acrovyn Wall Protection"
+			description = "In the past, designers and owners were forced to choose from a limited selection of “institutional” wall protection options or endure unsightly wall damage. Thankfully, those days are over as Acrovyn …. the industry’s most comprehensive line of wall protection products … now provides many designer profiles, colors, simulated patterns and real woods that enhance as well as protect your interior."
 			url = "http://www.c-sgroup.com/acrovyn"
 
 			[[params.acrovyn.row.list.links]]
@@ -102,7 +102,7 @@ googleAnalytics = "UA-1446018-12"
 		[[params.acrovyn.row.list]]
 			icon = "callout-acrovyn-doors.gif"
 			title = "Acrovyn Doors"
-			description = "Virtually indestructible Acrovyn Doors were designed to withstand daily traffic and wear without sacrificing aesthetics and design."
+			description = "Acrovyn Doors are specifically designed to resist the incredible amount of abuse to which commercial doors are subjected. Each door includes rugged Acrovyn material that is laminated to the door faces and to the replaceable rounded door edges in order to provide a level of long-term durability that is unmatched by more-commonly used wood or laminated doors."
 			url = "http://www.c-sgroup.com/acrovyn-doors"
 
 			[[params.acrovyn.row.list.links]]
@@ -115,14 +115,14 @@ googleAnalytics = "UA-1446018-12"
 		# About section
 	[params.pedisystems]
 		enable = true
-		title = "PediSystems Products"
+		title = "PediSystems Entrance Flooring"
 
 		[[params.pedisystems.row]]
 
 		[[params.pedisystems.row.list]]
 			icon = "callout-pedisystems.gif"
 			title = "PediSystems Entrance Flooring"
-			description = "C/S Pedisystems architectural mats and grids keep the entrances of commercial buildings, schools and hospitals, safe and beautiful by stopping dirt, snow and water at the door."
+			description = "Pedisystems architectural mats and grids keep the entrances of commercial buildings, schools and hospitals, safe and beautiful by stopping dirt, snow and water at the door."
 			url = "http://www.c-sgroup.com/entrance-flooring/entrance-mats-entrance-grids"
 
 			[[params.pedisystems.row.list.links]]
@@ -170,14 +170,14 @@ googleAnalytics = "UA-1446018-12"
 	# Team section
 	[params.generalcubicle]
 		enable = true
-		title = "General Cubicle"
+		title = "CS Cubicle Track / Curtains"
 
 		[[params.generalcubicle.row]]
 
 		[[params.generalcubicle.row.list]]
 			icon = "callout-general-cubicle-track-and-curtain.gif"
 			title = "Curtains and Track"
-			description = "C/S General Cubicle manufacturers the industry's finest line of flame-resistant privacy curtains, tracks and track accessory items."
+			description = "C/S manufactures the industry’s finest line of flame-resistant privacy curtains, tracks and track accessory items."
 			url = "http://www.c-sgroup.com/cubicle-track-curtains"
 
 		[[params.generalcubicle.row.list.links]]
