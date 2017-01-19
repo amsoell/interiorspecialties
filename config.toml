@@ -74,6 +74,8 @@ googleAnalytics = "UA-1446018-12"
 			title = "Acrovyn Wall Protection"
 			description = "In the past, designers and owners were forced to choose from a limited selection of “institutional” wall protection options or endure unsightly wall damage. Thankfully, those days are over as Acrovyn …. the industry’s most comprehensive line of wall protection products … now provides many designer profiles, colors, simulated patterns and real woods that enhance as well as protect your interior."
 			url = "http://www.c-sgroup.com/acrovyn"
+			catalog_text = "View the complete Acrovyn wall protection catalog"
+			catalog_link = "#"
 
 			[[params.acrovyn.row.list.links]]
 				text = "Acrovyn High-Impact Wall Covering"
@@ -104,6 +106,8 @@ googleAnalytics = "UA-1446018-12"
 			title = "Acrovyn Doors"
 			description = "Acrovyn Doors are specifically designed to resist the incredible amount of abuse to which commercial doors are subjected. Each door includes rugged Acrovyn material that is laminated to the door faces and to the replaceable rounded door edges in order to provide a level of long-term durability that is unmatched by more-commonly used wood or laminated doors."
 			url = "http://www.c-sgroup.com/acrovyn-doors"
+			catalog_text = "View the complete Acrovyn door catalog"
+			catalog_link = "#"
 
 			[[params.acrovyn.row.list.links]]
 				text = "View Acrovyn Door Product Video"
@@ -146,10 +150,6 @@ googleAnalytics = "UA-1446018-12"
 				link = "http://www.c-sgroup.com/entrance-flooring/entrance-mats/pedimat_m1"
 
 			[[params.pedisystems.row.list.links]]
-				text = "TreadLine"
-				link = "http://www.c-sgroup.com/entrance-flooring/entrance-mats/treadline_t1"
-
-			[[params.pedisystems.row.list.links]]
 				text = "DesignStep"
 				link = "http://www.c-sgroup.com/entrance-flooring/design-step"
 
@@ -170,14 +170,14 @@ googleAnalytics = "UA-1446018-12"
 	# Team section
 	[params.generalcubicle]
 		enable = true
-		title = "CS Cubicle Track / Curtains"
+		title = "Cubicle Curtains / Track"
 
 		[[params.generalcubicle.row]]
 
 		[[params.generalcubicle.row.list]]
 			icon = "callout-general-cubicle-track-and-curtain.gif"
 			title = "Curtains and Track"
-			description = "C/S manufactures the industry’s finest line of flame-resistant privacy curtains, tracks and track accessory items."
+			description = "CS manufactures the industry’s finest line of flame-resistant privacy curtains, tracks and track accessory items."
 			url = "http://www.c-sgroup.com/cubicle-track-curtains"
 
 		[[params.generalcubicle.row.list.links]]
