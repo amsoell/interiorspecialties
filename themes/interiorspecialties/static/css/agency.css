@@ -983,4 +983,12 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #fed136;
-}-
+}
+
+.link_list nobr:after {
+    content: ", ";
+}
+
+.link_list nobr:last-child:after {
+    content: "";
+}
