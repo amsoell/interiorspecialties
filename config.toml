@@ -95,7 +95,7 @@ googleAnalytics = "UA-1446018-12"
 
 			[[params.acrovyn.row.list.links]]
 				text = "Acrovyn Corner-Guards"
-				link = "Acrovyn Corner-Guards"
+				link = "http://www.c-sgroup.com/acrovyn/corner-guards"
 
 			[[params.acrovyn.row.list.links]]
 				text = "Acrovyn Door & Door-Frame Protection"
@@ -154,10 +154,6 @@ googleAnalytics = "UA-1446018-12"
 			[[params.pedisystems.row.list.links]]
 				text = "DesignStep"
 				link = "http://www.c-sgroup.com/entrance-flooring/design-step"
-
-			[[params.pedisystems.row.list.links]]
-				text = "DuroMat"
-				link = "http://www.c-sgroup.com/entrance-flooring/entrance-mats/duromat_dm"
 
 			[[params.pedisystems.row.list.links]]
 				text = "Floorometry"
