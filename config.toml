@@ -22,7 +22,6 @@ googleAnalytics = "UA-1446018-12"
 	# Link custom assets relative to /static
 	custom_css = []
 	custom_js  = []
-	favicon    = "favicon.ico"
 
 	# Possibility to disable external/additional fonts
 	# Exception: Fontawesome
