@@ -273,7 +273,3 @@ googleAnalytics = "UA-1446018-12"
 		[[params.footer.quicklinks]]
 			text = "info@interiorspecialties.net"
 			link = "mailto:info@interiorspecialties.net"
-
-		[[params.footer.quicklinks]]
-			text = "Product Literature"
-			link = "#"
