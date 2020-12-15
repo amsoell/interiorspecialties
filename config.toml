@@ -17,7 +17,7 @@ googleAnalytics = "UA-1446018-12"
 	# To provide some metadata for search engines feel free to add a few
 	# information about you and your website.
 	name = "Interior Specialties"
-	description = "Interior Specialties is a manufacturer’s representative agency that serves Central and Southern Ohio through the promotion and sale of a variety of specialty interior building products – products that are used by commercial contractors and facility owners/operators within commercial, health-care and educational buildings"
+	description = "(614) 882-7733 rick@interiorspecialties.net"
 
 	# Link custom assets relative to /static
 	custom_css = []
@@ -46,168 +46,25 @@ googleAnalytics = "UA-1446018-12"
 		brand = "Interior Specialties"
 		# Optional logo as brand stored in img/
 		#logo = "logo.svg"
-		acrovyn = "Acrovyn"
-		pedisystems = "PediSystems"
-		generalcubicle = "Cubicle Curtains / Track"
 		contact = "Contact"
 
 	# Hero section
 	[params.hero]
 		# To change the background image of the hero, replace 'header-bg.jpg' in
 		# the 'static/img' folder.
-		title = "Representing Construction Specialties since 1985"
+		title = "Manufacturer's Representatives located in Columbus, Ohio"
 		buttonText = "Tell me more"
 
 	[params.about]
 		title = "About Interior Specialties"
 
 	# Services section
-	[params.acrovyn]
-		enable = true
-		title = "Acrovyn Products"
-
-		[[params.acrovyn.row]]
-
-		[[params.acrovyn.row.list]]
-			icon = "callout-acrovyn-wall-protection.gif"
-			title = "Acrovyn Wall Protection"
-			description = "In the past, designers and owners were forced to choose from a limited selection of “institutional” wall protection options or endure unsightly wall damage. Thankfully, those days are over as Acrovyn …. the industry’s most comprehensive line of wall protection products … now provides many designer profiles, colors, simulated patterns and real woods that enhance as well as protect your interior."
-			url = "http://www.c-sgroup.com/acrovyn"
-			catalog_text = "Click Here For Acrovyn Wall Protection Catalog"
-			catalog_link = "http://csliterature.c-sgroup.com/catalogs/acrovyn/"
-
-			[[params.acrovyn.row.list.links]]
-				text = "Acrovyn High-Impact Wall Covering"
-				link = "http://www.c-sgroup.com/acrovyn/wall-covering"
-
-			[[params.acrovyn.row.list.links]]
-				text = "Acrovyn Wall Panels"
-				link = "http://www.c-sgroup.com/acrovyn/wall-panels"
-
-			[[params.acrovyn.row.list.links]]
-				text = "Acrovyn Handrails"
-				link = "http://www.c-sgroup.com/acrovyn/handrails"
-
-			[[params.acrovyn.row.list.links]]
-				text = "Acrovyn Crashrails"
-				link = "http://www.c-sgroup.com/acrovyn/crash-rails"
-
-			[[params.acrovyn.row.list.links]]
-				text = "Acrovyn Corner-Guards"
-				link = "http://www.c-sgroup.com/acrovyn/corner-guards"
-
-			[[params.acrovyn.row.list.links]]
-				text = "Acrovyn Door & Door-Frame Protection"
-				link = "http://www.c-sgroup.com/acrovyn/door-covering"
-
-		[[params.acrovyn.row.list]]
-			icon = "callout-acrovyn-doors.gif"
-			title = "Acrovyn Doors"
-			description = "Acrovyn Doors are specifically designed to resist the incredible amount of abuse to which commercial doors are subjected. Each door includes rugged Acrovyn material that is laminated to the door faces and to the replaceable rounded door edges in order to provide a level of long-term durability that is unmatched by more-commonly used wood or laminated doors."
-			url = "http://www.c-sgroup.com/acrovyn-doors"
-			catalog_text = "Click Here for Acrovyn Doors Catalog"
-			catalog_link = "http://csliterature.c-sgroup.com/catalogs/acrovyn-doors/"
-
-			[[params.acrovyn.row.list.links]]
-				text = "View Acrovyn Door Product Video"
-				link = "http://www.c-sgroup.com/acrovyn-doors/movie-promotion"
-			[[params.acrovyn.row.list.links]]
-				text = "Acrovyn Door Selector"
-				link = "http://www.c-sgroup.com/acrovyn-doors/door-selector"
-
-		# About section
-	[params.pedisystems]
-		enable = true
-		title = "PediSystems Entrance Flooring"
-
-		[[params.pedisystems.row]]
-
-		[[params.pedisystems.row.list]]
-			icon = "callout-pedisystems.gif"
-			title = "PediSystems Entrance Flooring"
-			description = "Pedisystems architectural mats and grids keep the entrances of commercial buildings, schools and hospitals, safe and beautiful by stopping dirt, snow and water at the door."
-			url = "http://www.c-sgroup.com/entrance-flooring/entrance-mats-entrance-grids"
-			catalog_text = "Click Here for Pedisystems Catalog"
-			catalog_link = "http://csliterature.c-sgroup.com/catalogs/entrance-flooring"
-
-			[[params.pedisystems.row.list.links]]
-				text = "View PediSystems Product Video"
-				link = "http://www.c-sgroup.com/entrance-flooring/promo-movie"
-
-			[[params.pedisystems.row.list.links]]
-				text = "PediTred"
-				link = "http://www.c-sgroup.com/entrance-flooring/entrance-grids/peditred_g4"
-
-			[[params.pedisystems.row.list.links]]
-				text = "PediGrid"
-				link = "http://www.c-sgroup.com/entrance-flooring/entrance-grids/pedigrid_g1"
-
-			[[params.pedisystems.row.list.links]]
-				text = "GridLine"
-				link = "http://www.c-sgroup.com/entrance-flooring/entrance-grids/gridline_g6"
-
-			[[params.pedisystems.row.list.links]]
-				text = "PediMat"
-				link = "http://www.c-sgroup.com/entrance-flooring/entrance-mats/pedimat_m1"
-
-			[[params.pedisystems.row.list.links]]
-				text = "DesignStep"
-				link = "http://www.c-sgroup.com/entrance-flooring/design-step"
-
-			[[params.pedisystems.row.list.links]]
-				text = "Floorometry"
-				link = "http://www.c-sgroup.com/floorometry/tech-center"
-
-			[[params.pedisystems.row.list.links]]
-				text = "Helix"
-				link = "http://www.c-sgroup.com/entrance-flooring/helix"
-
-			[[params.pedisystems.row.list.links]]
-				text = "Floormations"
-				link = "http://www.c-sgroup.com/floormations-entrance-floors"
-
-			[[params.pedisystems.row.list.links]]
-				text = "View Floorometry Product Video"
-				link = "http://www.c-sgroup.com/floorometry/promo-movie"
-
-
-
-	# Team section
-	[params.generalcubicle]
-		enable = true
-		title = "Cubicle Curtains / Track"
-
-		[[params.generalcubicle.row]]
-
-		[[params.generalcubicle.row.list]]
-			icon = "callout-general-cubicle-track-and-curtain.gif"
-			title = "Curtains and Track"
-			description = "CS manufactures the industry’s finest line of flame-resistant privacy curtains, tracks and track accessory items."
-			url = "http://www.c-sgroup.com/cubicle-track-curtains"
-			catalog_text = "Click Here For Cubicle Curtains Catalog"
-			catalog_link = "http://csliterature.c-sgroup.com/catalogs/cubicle-track-curtains/"
-
-		[[params.generalcubicle.row.list.links]]
-			text = "Track"
-			link = "http://www.c-sgroup.com/cubicle-track-curtains/track_systems"
-
-		[[params.generalcubicle.row.list.links]]
-			text = "Carriers"
-			link = "http://www.c-sgroup.com/cubicle-track-curtains/track_carriers"
-
-		[[params.generalcubicle.row.list.links]]
-			text = "IV Carriers"
-			link = "http://www.c-sgroup.com/cubicle-track-curtains/iv_pendants"
-
-		[[params.generalcubicle.row.list.links]]
-			text = "Curtains"
-			link = "http://www.c-sgroup.com/cubicle-track-curtains/fabric"
 
 	# Contact section
 	[params.contact]
 		enable = true
 		title = "Contact us"
-		subtitle  = "Want to know about these products or get a quote? We would love to hear from you."
+		# subtitle  = "Want to know about these products or get a quote? We would love to hear from you."
 		buttonText = "Send message"
 
 		# Since this template is static, the contact form uses www.formspree.io as a
@@ -263,12 +120,12 @@ googleAnalytics = "UA-1446018-12"
 	# Footer section
 	[params.footer]
 		enable = true
-		copyright = "Copyright &copy; 2017 Interior Specialties"
+		copyright = "Copyright &copy;2020 Interior Specialties"
 
 		[[params.footer.quicklinks]]
 			text = "1-614-882-7733"
 			link = "tel:16148827733"
 
 		[[params.footer.quicklinks]]
-			text = "info@interiorspecialties.net"
-			link = "mailto:info@interiorspecialties.net"
+			text = "rick@interiorspecialties.net"
+			link = "mailto:rick@interiorspecialties.net"
